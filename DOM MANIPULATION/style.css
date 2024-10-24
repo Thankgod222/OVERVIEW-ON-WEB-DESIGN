@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+.boxes {
+  border: 2px solid gray;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.hidden-content {
+  display: none;
+}
+
+.hidden-content.reveal-btn {
+  display: block;
+}
